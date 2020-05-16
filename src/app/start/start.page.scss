@@ -1,0 +1,158 @@
+ion-content{
+    --ion-background-color: rgb(250, 253, 249);
+}
+.noti{
+  margin-left: 160px;
+  background-color: red;
+}
+img{
+    height: 100px;
+    margin-top: 400px;
+    display: block;
+    margin-left: 100px;
+  }
+  .help{
+    position:relative; z-index:2;
+    left:95px; top:270px;
+  }
+  .info{
+    position:relative; z-index:2;
+    left:20px; top:270px;
+  }
+  .btn-on{
+    font-family: "SF Display";
+    font-weight: 600;
+    color: #A0B591;
+    --ion-background-color: rgb(240, 247, 234);
+    position:absolute; z-index:3;
+    left: 50px;
+    margin-top: 160px;
+    border-radius: 10px;
+  }
+  .btn-man{
+    font-family: "SF Display";
+    font-weight: 600;
+    color: #A0B591;
+    --ion-background-color: rgb(240, 247, 234);
+    position:absolute; z-index:3;
+    left: 50px;
+    margin-top: 220px;
+    border-radius: 10px;
+  }
+.man{
+
+}
+  .btn-mon{
+    font-family: "SF Display";
+    font-weight: 600;
+    color: #A0B591;
+    --ion-background-color: rgb(240, 247, 234);
+    position:absolute; z-index:3;
+    left: 50px;
+    margin-top: 280px;
+    border-radius: 10px;
+    --color-hover:#565656;
+    --background-hover:rgb(113, 177, 64);
+  }
+  .btn-bt{
+    font-family: "SF Display";
+    font-weight: 600;
+    color: #A0B591;
+    --ion-background-color: rgb(240, 247, 234);
+    position:absolute; z-index:3;
+    left: 50px;
+    margin-top: 340px;
+    border-radius: 10px;
+    --color-hover:#565656;
+    --background-hover:rgb(113, 177, 64);
+  }
+
+
+  .mishoras{
+    color: #6D6D6D;
+    font-family: "SF Display";
+    font-weight: 100;
+    font-size: 90px;
+    left: 50px;
+    top: 50px;
+    position:absolute; z-index:3;
+  }
+  .horas p{
+    color: #6D6D6D;
+    font-family: "SF Display";
+    font-weight: 100;
+    position:absolute; z-index:2;
+    top: 130px;
+    left: 98px;
+  }
+ion-toggle{
+  --handle-background: rgb(240, 247, 234);
+  --handle-background-checked	: rgb(240, 247, 234);
+  --background:#565656;
+  --background-checked:#B3D594;
+}
+.bar{
+  padding: 0 0 0 10px;
+  color: #565656;
+}
+//ion-toggle{
+   //   width: 35px !important;
+    //  height: 12px !important;
+//}
+@media (min-width: 437px){
+  .mishoras{
+    color:#6D6D6D;
+    font-size: 120px;
+    left: 76px;
+    top: 50px;
+
+  }
+  .horas p{
+    top: 170px;
+    font-size: 25px;
+    left: 130px;
+  }
+  img{
+    height: 150px;
+    margin-top: 650px;
+    margin-left: 140px;
+  }
+
+  .help{
+    left:110px;
+    top:330px;
+  }
+  .info{
+    left:25px; 
+    top:330px;
+  }
+  .btn-bt{
+    left: 100px;
+    margin-top: 510px;
+
+  }
+  .btn-mon{
+    left: 100px;
+    margin-top: 420px;
+    
+
+  }
+  .btn-on{
+    left: 100px;
+    margin-top: 240px;
+  
+  }
+  .btn-man{
+    left: 100px;
+    margin-top: 330px;
+
+  }
+  ion-toggle{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .moni{
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  }

@@ -1,0 +1,40 @@
+ion-content{
+    --ion-background-color: rgb(250, 253, 249);
+}
+ion-toolbar{
+    --background:rgb(250, 253, 249);
+}
+ion-title{
+    font-family: "SF Display";
+    font-weight: 700;
+    font-size: 30px;
+  }
+
+  ion-title h2{
+    font-family: "SF Display";
+    font-weight: 600;
+    font-size: medium;
+    color: #a1a1a1;
+    text-align: center;
+}
+
+.version p{
+    font-family: "SF Display";
+    font-size: 12px;
+    text-align: justify;
+    color: gray;
+
+}
+img{
+    height: 100px;
+    margin-top: 400px;
+    display: block;
+    margin-left: 100px;
+  }
+  @media (min-width: 412px){
+    img{
+      height: 130px;
+      margin-top: 70px;
+      margin-left: 140px;
+    }
+}

@@ -1,0 +1,30 @@
+
+<ion-content class="bg-con">
+  <ion-icon name="information-circle" style="zoom: 2.3; margin-left: 10px;" color="medium" class="info"(click)="info()" ></ion-icon>
+  <ion-icon name="help-circle" style="zoom: 2.3;" color="medium" class="help" (click)="help()"></ion-icon>
+  <div class="clock">
+    <div class="hours">
+        <div class="horas">
+            <span class="mishoras">{{hora}}:{{minutos}}</span>
+            <p>{{dia}} {{fecha}}</p>
+        </div>
+    </div>
+</div>
+
+  <ion-item class="btn-on" lines="none">
+    <ion-label style="margin-right: 82px;" >Encender</ion-label>
+    <ion-toggle slot="start" name="auto" mode="ios" (ionChange)="encender($event)" ></ion-toggle>
+  </ion-item>
+  <ion-item class="btn-man" lines="none">
+    <ion-label style="margin-right: 95px;">Manual</ion-label>
+    <ion-toggle slot="start" name="auto" mode="ios" ></ion-toggle>
+  </ion-item>
+  <div class="maldito">
+  <ion-item button class="btn-mon" lines="none" detail (click)="monitor()">
+    <ion-label style="padding-left: 10px; margin-right: 45px;" class="moni">Monitoreo</ion-label>
+    <ion-icon class="icon-mon" name="bar-chart" slot="start" class="bar"></ion-icon>
+  </ion-item>
+</div>
+
+  <img src="../../assets/icon.png" alt="">
+</ion-content>
